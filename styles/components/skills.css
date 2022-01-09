@@ -1,0 +1,14 @@
+@import './subsection.css';
+
+.skills {
+    width: 400px;
+}
+
+.skills-item {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}

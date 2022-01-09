@@ -1,0 +1,28 @@
+.social-list {
+    margin-bottom: 10px;
+}
+
+.social-item {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    grid-column-gap: 10px;
+    margin-bottom: 5px;
+}
+
+.social-img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-link {
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+

@@ -1,0 +1,35 @@
+@import './avatar.css';
+@import './social-list.css';
+@import './chapter.css';
+@import './skills.css';
+@import './title.css';
+@import './subtitle.css';
+@import './projects-list.css';
+@import './education-list.css';
+
+.cv-container {
+    width: 1240px;
+    height: 1754px;
+    background-color: white;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 250px auto;
+    grid-row-gap: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+            -23px 0 20px -23px rgba(0, 0, 0, .6),
+            23px 0 20px -23px rgba(0, 0, 0, .6),
+            inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.header {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 250px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-container {
+    width: 250px;
+}
