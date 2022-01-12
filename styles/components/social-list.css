@@ -11,9 +11,16 @@
     margin-bottom: 5px;
 }
 
+
+
 .social-img {
     width: 30px;
     height: 30px;
+}
+
+.social-img--border {
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
 .social-link {
